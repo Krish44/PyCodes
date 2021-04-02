@@ -1,5 +1,4 @@
-
-# Dict select: Print out number 10 only from the following dictionary.
+# Dict select: Print out number 10 only from the following dictionary.
 money = {"saving_account":200, "checking_account": 100, "under_bed": [500,10,100]}
 print(money["under_bed"][0])
 
@@ -36,5 +35,28 @@ for i in a[:3]:
 lst=["Terribly Tricky"]
 print("Before: ",lst[-1])
 for word in lst:
+    print(word)
     for letter in word[-6:]:
         print(letter)
+
+"""
+Output:
+500
+two@ymail.com
+Enter the password: Code345
+You are logged in
+One one@gmail.com
+Two two@ymail.com
+Ten ten@gmail.com
+T
+r
+i
+Before:  Terribly Tricky
+Terribly Tricky
+T
+r
+i
+c
+k
+y
+"""
