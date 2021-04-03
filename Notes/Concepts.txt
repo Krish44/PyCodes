@@ -1,0 +1,74 @@
+IoT Architecture
+	Data collection	
+	Realtime analysis
+	Historical Analysis
+	
+Familiar Libraries
+	- requests
+	- scrapy
+	- wxPython
+	- Pillow
+	- SQlAlchemy
+	- beautifulsoup
+	- scrapy
+	- twisted
+	- numpy
+	- pands
+	- matplotlib
+
+	- re
+	- os
+	- random
+	- collections
+	- csv
+	- tkinter
+	- logging
+	- multiprocessing
+	- subprocess
+	- itertools
+	- functools
+	- pickle
+
+	- tensorflow
+	- Scikit-Learn
+	- keras
+	- pytorch
+	- lightgbm
+	- Eli5
+	- scipy
+	- theano
+	
+Collections in python
+My Best project
+
+Garbage collection in Python
+Multithreding
+Logging in python
+
+String to list conversion
+
+
+1. Read and exract from a json file
+2. usage of classes
+3. Types of exception
+4. Connect to Oracle
+5. String to list (vice-versa convert)
+6. Connect to mysql
+7. Gather data from a file, write & rad from a file
+8. Search a pattern in a file
+9. Handle a csv file
+10. Use of linked list
+11. Numpy usage
+12. pandas usage
+13. Send email
+14. Using REST APIs
+15. regular expressions - usage
+
+1. Prepare a best project
+2. 
+
+
+1. Iterator, generator , decorator
+2. Read doc
+
+
