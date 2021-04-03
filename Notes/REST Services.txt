@@ -1,0 +1,57 @@
+REST APIs with Python:
+--------------------------
+
+          (http protocols)
+Client     --------->       Server
+
+WebServices available: Access cloud server for data set
+Request <-> Response
+
+
+API: 
+	- To connect us to Server
+	- Two pieces of softwares comnunicate wit each other
+	- Through Request and  Response (json)
+	- REST(REpresentational State Transfer)
+	- Not object but state of object (value of it)
+	
+JSON - Java Script Object Notation
+
+Through APIs:
+	- Security
+	- Versatility (Mobile/web apps)
+	- 
+
+API Endpoints:
+	- Changes at backend need not be a concern
+	- Data can be still obtained as per API end points
+	- Certain  end points can be made public , used by anyone
+		Ex: Instagram look can be changed to have very own viewer
+	- Automation 
+	- Private ones will need authentication
+	- OAuth realm
+	
+HTTP Request Methods: (CRUD)
+-----------------------
+C -> Create  ->  POST     
+R -> Read    ->  GET      
+U -> Update  ->  PUT      
+D -> Delete  ->  DELETE   
+
+Example:
+    [ -- Request -- ]                [ -- Response -- ]
+GET /api/customers                  [{id:1, name: ''}, {id:2, name: ''}, ... ]
+GET /api/customers/1                {id:1, name: ''}
+PUT /api/customers/1                {id:1, name: ''}
+	{ name:'' }                     
+DELETE /api/customers/1             # Deletes corresponding record
+POST /api/customers                 {id:1, name: ''}     
+	{ name:'' }  
+
+Note:  
+-------
+- PUT is sai to be idempotent(element of a set which is unchanged in value when multiplied or otherwise operated on by itself.)  
+
+Examples:
+api.<website>
+
