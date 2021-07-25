@@ -1,3 +1,7 @@
+"""
+Purpose: Sort the list without using sort function
+"""
+
 list_1 = [2, 9, 66, 5, 3, 1]
 print(list_1)
 v_len = len(list_1)
