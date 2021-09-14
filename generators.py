@@ -1,7 +1,7 @@
 """
 Python generators:
 1. Generate even number range
-2. generate fibonacci series
+2. generate fibonacci series (For limit and range)
 
 """
 print("<<================================>>")
@@ -33,6 +33,22 @@ for i in fibo(50):
 
 print("\n<<================================>>")
 
+print("Generate fibo for a range: 10")
+
+def fibonacci(i_count):
+    a,b,count = 0,1,0
+    while count < i_count:
+        yield a
+        a,b, count= b, a+b , count+1
+
+fibo_obj = fibonacci(10)
+while True:
+    try:
+        print(next(fibo_obj), end=" ")
+    except StopIteration:
+        break
+print("\n<<================================>>")
+
 """
 Output:
 <<================================>>
@@ -42,6 +58,9 @@ Print upto range: 10
 <<================================>>
 Generate Fibo series:
 Display fibo numbers till 50
+0 1 1 2 3 5 8 13 21 34 
+<<================================>>
+Generate fibo for a range: 10
 0 1 1 2 3 5 8 13 21 34 
 <<================================>>
 """
