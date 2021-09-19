@@ -1,0 +1,3 @@
+"""
+Program implementing named tuple
+"""
