@@ -1,0 +1,11 @@
+read / readline / readlines
+
+f.read() 
+	- Read entire content of the file
+
+f.readline() 
+	- Reads a single line from the file
+	
+f.readlines() 
+	- method to get a list of string values from the file, one string for each line of text
+	
