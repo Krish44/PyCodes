@@ -17,7 +17,11 @@ Jack E107 gun BR
 
 # Read space separated file
 in_file = open('/home/krishnap/workbench/testDir/storeFile.txt','r')
-in_file.rea
+# with open('/home/krishnap/workbench/testDir/storeFile.txt','r') as in_file:
+data = in_file.read()
+in_file.close()
+print(data)
+
 # Product quantity from 3rd row.
 # Replace E103 with E111.
 # Write unique user name and ID to new file
